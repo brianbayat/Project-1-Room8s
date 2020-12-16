@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+html {
+  overflow: 'auto';
+}
+
+.material-icons.orange600 {
+  color: #eb7c14;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  display: block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1em;
+
+  font-family: 'Inconsolata', monospace;
+}
+
+form div {
+  margin: 1em;
+  display: inline-block;
+}
+
+/* D3 styling */
+
+path {
+  stroke: #a9a9a9;
+  stroke-width: 0.5;
+}
+
+#neighborhoodPopover {
+  position: absolute;
+  text-align: center;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: #fff;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 3;
+}
+
+/* D3 styling */
+
+.mapAndQuestions {
+  display: flex;
+  padding: 50px auto;
+}
+
+.questionBox {
+  min-width: 200px;
+  padding: 100px auto;
+  max-width: 400px;
+}
+
+.answerBox {
+  min-width: 400px;
+  padding: 100px auto;
+  max-width: 400px;
+}
+
+#users {
+  max-width: 90%;
+  max-height: 90%;
+  margin: 10px;
+  padding: 10px;
+  /* border: 2px dashed green; */
+  text-align: left;
+}
+
+#usersHeadline {
+  margin-left: 30px;
+}
+.userContainer {
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  /* border: 5px solid red; */
+
+  width: 100vw;
+  height: 500px;
+  flex-direction: column;
+
+  text-align: left;
+}
+
+.userHeader {
+  margin: 10px;
+  padding: 10px;
+  /* position: absolute; */
+  font-size: 20px;
+  border: 2px solid yellow;
+  border-radius: 10px;
+  text-align: left;
+
+  text-align: left;
+  background-color: white;
+  color: black;
+  width: 500px;
+}
+
+.userList {
+  margin: 10px;
+  padding: 10px;
+  /* position: absolute; */
+  font-size: 20px;
+  border: 2px solid yellow;
+  border-radius: 10px;
+
+  text-align: left;
+  background-color: lightgreen;
+  color: black;
+  width: 500px;
+}
+
+.userList:hover {
+  /* text-decoration: underline; */
+  cursor: pointer;
+  background-color: rgb(139, 0, 107);
+  color: white;
+}
+
+/* Profile styling */
+/* div {
+  border: 3px solid #4CAF50;
+  padding: 5px;
+} */
+
+.clearfix {
+  overflow: auto;
+}
+
+.img2 {
+  float: left;
+  margin-right: 20px;
+}
+
+.edit {
+  color: red;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  width: 200px;
+}
+
+tr:nth-child {
+  background-color: #f2f2f2;
+}
+
+/* th {
+  background-color: #4caf50;
+  color: white;
+} */
+
+/* .answers {
+  display: flex;
+  flex-direction: row;
+} */
+
+.title {
+  font-family: 'Lobster', cursive;
+  color: black;
+  z-index: 1;
+  position: absolute;
+  left: 90px;
+  top: 5px;
+}
+
+.barImg {
+  position: absolute;
+  bottom: 0px;
+  left: 65px;
+  z-index: -1;
+}
+
+.loginPage {
+  text-align: center;
+}
+
+.mapWithKeys {
+  display: flex;
+  /* flex: auto; */
+  /* right: 200px; */
+  padding: 50px;
+}
+.leftNavBar {
+  background-color: black;
+}
